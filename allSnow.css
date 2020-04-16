@@ -68,6 +68,8 @@ nav ul.menu li {
 nav ul.menu li a {
     display: block;
     padding: .5rem 1.5rem;
+    text-decoration: none;
+    color: #6B7D82;
 }
 
 nav ul.menu li a:hover {
@@ -108,10 +110,19 @@ main p {
     line-height: 150%;
 }
 
+main p.signature img {
+    width: 200px;
+}
+
 main blockquote {
     font-style: italic;
     margin: .4rem 2%;
     font-size: .9rem;
+    margin-bottom: 8px;
+}
+
+main h4 {
+    margin-bottom: 24px;
 }
 
 main a {
@@ -147,6 +158,49 @@ main dl dd {
     margin: 0;
     padding-left: 16px;
     margin-bottom: 8px;
+}
+
+/* styling images */
+
+figure.groomer {
+    float: right;
+    width: 33.333%;
+    border: solid 1px #B9C9D4;
+    margin: 0 0 .25em 2%;
+}
+
+figure.groomer img {
+    width: 100%;
+}
+
+figure.groomer figcaption{
+    text-align: center;
+    font-size: .7rem;
+    color: #B9C9D4;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figure.resorts {
+    float: left;
+    padding-top: 2px;
+    border: 1px solid #B9C9D4;
+    text-align: center;
+    margin: 16px;
+}
+
+figure.resorts figcaption {
+    font-size: .7rem;
+}
+
+figure.resorts figcaption span {
+    display: block;
+    font-weight: bold;
+    font-size: .9rem;
+    color: #6B7D82;
 }
 
 /* footer */
